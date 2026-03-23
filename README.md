@@ -36,9 +36,9 @@ Evaluate the trained model on test data using accuracy, confusion matrix, and cl
 
 ## PROGRAM
 
-### Name:MANIKANDAN T
+### Name:Vaitheswaran N
 
-### Register Number:212224110037
+### Register Number:212224110059
 
 ```python
 import torch
@@ -160,8 +160,8 @@ with torch.no_grad():
 accuracy = accuracy_score(actuals, predictions)
 conf_matrix = confusion_matrix(actuals, predictions)
 class_report = classification_report(actuals, predictions, target_names=[str(i) for i in label_encoder.classes_])
-print("Name: MANIKANDAN T")
-print("Register No: 212224110037")
+print("Name: Vaitheswaran N")
+print("Register No: 212224110059")
 print(f'Test Accuracy: {accuracy:.2f}%')
 print("Confusion Matrix:\n", conf_matrix)
 print("Classification Report:\n", class_report)
